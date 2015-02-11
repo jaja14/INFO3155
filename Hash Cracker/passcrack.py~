@@ -9,7 +9,12 @@ def testpass(uname,cPass,dname):
 		cword = crypt.crypt(word,salt)
 		if (cword == cPass):
 			print "Password for " +uname +" is " +word +"\n"
+<<<<<<< HEAD
 			return
+	#time.sleep(2)
+=======
+			time.sleep(2)
+>>>>>>> c56643860e12dafdd4e7eaffb9a823cdd59854b1
 	print "No password found for " +uname +"\n"
 	return
 
